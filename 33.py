@@ -1,0 +1,9 @@
+n=int(input())
+c=int(input())
+k=int(input())
+z=n*c
+x=(k-1)//z+1
+p=(k-1)%z
+a=p//n+1
+b=p%n+1
+print('страница',x,'столбец',a,'строка',b)

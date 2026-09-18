@@ -1,0 +1,10 @@
+import math
+a=int(input())
+b=int(input())
+c=int(input())
+x=math.degrees(math.acos((a**2+b**2-c**2)/(2*a*b)))
+y=math.degrees(math.acos((a**2+c**2-b**2)/(2*a*c)))
+z=math.degrees(math.acos((c**2+b**2-a**2)/(2*c*b)))
+print(x)
+print(y)
+print(z)

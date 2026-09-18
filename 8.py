@@ -1,0 +1,8 @@
+print("Введите плей-лист папы:")
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+print('Плейлист мамы:')
+print(e,d,c,b,a,sep='\n')

@@ -1,0 +1,9 @@
+sm=float(input())
+d=sm/2.54
+f=d/12
+m=f/1760
+a=f/3
+print(a,'ярдов')
+print(m,'мили')
+print(f,'фута')
+print(d,'дюйма')
